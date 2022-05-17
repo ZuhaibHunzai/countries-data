@@ -1,0 +1,26 @@
+.servicesBodyMain {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: auto;
+}
+.servicesImgDiv {
+  display: flex;
+  width: 400px;
+  height: 400px;
+}
+.servicesTextDiv {
+  width: 400px;
+  height: 400px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.servicesBodyTextH {
+  font-size: 25px;
+  color: aqua;
+}
+.servicesBodyTextP {
+  font-size: 18px;
+  text-align: left;
+}
