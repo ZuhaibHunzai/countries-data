@@ -45,7 +45,7 @@ const AllCountriesData = () => {
               ) : (
                 <Box className={classes.cardContainer}>
                   <Box className={classes.cardWrapper}>
-                    {filteredRegions.slice(0, 20).map((con, index) => {
+                    {filteredRegions.slice(0, 28).map((con, index) => {
                       return (
                         <>
                           <Box className={classes.cardMain} key={index}>
@@ -129,6 +129,7 @@ const useStyles = makeStyles((theme) => ({
     justifyContent: "space-between",
     alignItems: "center",
     flexWrap: "wrap",
+    marginLeft: "10px",
     [theme.breakpoints.down("sm")]: {
       justifyContent: "center",
       alignItems: "center",

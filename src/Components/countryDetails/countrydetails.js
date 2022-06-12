@@ -133,7 +133,9 @@ const CountryDetails = () => {
                                 <span className={classes.span}>
                                   Border Countries
                                 </span>{" "}
-                                France Netherland
+                                {con.borders.map((bor) => {
+                                  return `${bor}, `;
+                                })}
                               </p>
                             </Box>
                           </Box>
